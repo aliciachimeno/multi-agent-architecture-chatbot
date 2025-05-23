@@ -22,14 +22,18 @@ src/
 │   ├── langgraph-multiagent-genie-pat # Development and deploy of the model (private)
 │   ├── agent.py # Architecture multi-agent (public)
 ├── evaluation/
-│   ├── run_evaluation.py        # Scripts to run evaluations (using MLflow, Mosaic AI, etc.) (private)
+│   ├── run_evaluation.py        # Scripts to run evaluations (using MLflow, Mosaic AI) (private)
 ├── models/
 │   ├── (private)
 ├── utils/
 ├── config/
 └── __init__.py
-/docs - Documents 
-/data - Datasets
+
+data/
+│   ├── corpus-documents/
+│   ├── datasets/
+│   ├── evaluation-datasets/
+
 ```
 
 ## DEVELOPMENT WORKFLOW
