@@ -2,12 +2,12 @@
 
 This project demonstrates how to build, deploy, and evaluate a generative AI multi-agent system using the Databricks. It showcases the integration of tools like LangChain, Mosaic AI, MLflow, and external LLMs to deliver intelligent, autonomous agents.
 
- ## Use Case 
+ ## 🚀 Use Case :  Catalonia Multi-agent Startup assistant
 Help new entrepreneurs navigate the complex process of starting a business by guiding them through official procedures and documents from trusted sources. This is achieved using Retrieval-Augmented Generation (RAG) combined with a multi-agent architecture.
 
-Built with Databricks Mosaic AI, LangChain, MLflow, and LLMs (Llama and Claude)
+Built with **Databricks Mosaic AI, LangChain, MLflow, and LLMs (Llama and Claude)**
 
-## PROJECT STRUCTURE
+## 🗂️ PROJECT STRUCTURE
 ```
 src/
 ├── data/
@@ -35,7 +35,7 @@ data/
 
 ```
 
-## DEVELOPMENT WORKFLOW
+## 🔁 DEVELOPMENT WORKFLOW
 1. Ingest & Preprocess: Load datasets into Unity Catalog and preprocess.
 2. Indexing: Build vector search indices.
 3. Model Design: Develop a LangGraph-based multi-agent architecture.
@@ -43,7 +43,7 @@ data/
 5. Evaluate & Iterate:  Use MLflow for experiment tracking and agent evaluation.
 7. Productionize: Implement monitoring, safety guardrails, and governance policies.
 
-## KEY TECHNOLOGIES
+## 🔧 KEY TECHNOLOGIES
 - Databricks
     - Unity Catalog (Data and model governance)
     - Mosaic AI (Model Serving, Vector Search, Agent Evaluation)
