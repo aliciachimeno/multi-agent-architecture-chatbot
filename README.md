@@ -51,6 +51,9 @@ Mosaic AI (Model Serving, Vector Search)
 MLflow (Experiment tracking and evaluation)
 Open-source and external LLMs (e.g., Llama, Mistral, GPT-4, Claude)
 
+## LangGraph architecture
+![Architecture Diagram](./media/langgraph.png)
+
 ## DEMO GIF
 
 ![Demo](./media/demo-1.gif)
