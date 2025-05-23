@@ -1,6 +1,6 @@
 # Generative AI Multi-Agent System on Databricks
 
-This project demonstrates how to build, deploy, and evaluate a generative AI multi-agent system using the Databricks Data Intelligence Platform. It showcases the integration of modern tools like LangChain, Mosaic AI, MLflow, and external LLMs to deliver intelligent, autonomous agents.
+This project demonstrates how to build, deploy, and evaluate a generative AI multi-agent system using the Databricks. It showcases the integration of tools like LangChain, Mosaic AI, MLflow, and external LLMs to deliver intelligent, autonomous agents.
 
  ## Use Case 
 Help new entrepreneurs navigate the complex process of starting a business by guiding them through official procedures and documents from trusted sources. This is achieved using Retrieval-Augmented Generation (RAG) combined with a multi-agent architecture.
