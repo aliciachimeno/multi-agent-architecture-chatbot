@@ -1,0 +1,19 @@
+chunking_config:
+  chunk_overlap_tokens: 256
+  chunk_size_tokens: 1024
+  class_path: __main__.RecursiveTextSplitterChunkingConfig
+  embedding_model_endpoint: databricks-gte-large-en
+class_path: __main__.DataPipelineConfig
+output:
+  chunked_docs_table: dts_proves_pre.startups_list.tramits_docs_chunked
+  class_path: __main__.DataPipelineOutputConfig
+  parsed_docs_table: dts_proves_pre.startups_list.tramits_docs
+  vector_index: dts_proves_pre.startups_list.tramits_docs_chunked_index
+  vector_search_endpoint: aliciachimeno_ext_vector_search
+source:
+  class_path: __main__.UCVolumeSourceConfig
+  uc_catalog_name: dts_proves_pre
+  uc_schema_name: startups_list
+  uc_volume_name: tramits
+  volume_path: /Volumes/dts_proves_pre/startups_list/tramits
+  volume_uc_fqn: dts_proves_pre.startups_list.tramits
