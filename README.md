@@ -12,9 +12,9 @@ Python, Langchain, MLflow.
 ```
 src/
 ├── data/
-│   ├── import-dades-obertes-api.py 
-│   ├── import-csv-into-volume.py 
-│   ├── web-scrapping.py
+│   ├── import-dades-obertes-api.py (private)
+│   ├── import-csv-into-volume.py (private)
+│   ├── web-scrapping.py (private)
 ├── vector_search/
 │   ├── vector-search-documentation.py # Vector search creation for the documentation sources. (private)
 │   ├── vector-search-tramits.py # Vector search creation for the tramit sources. (private)
@@ -22,14 +22,18 @@ src/
 │   ├── langgraph-multiagent-genie-pat # Development and deploy of the model (private)
 │   ├── agent.py # Architecture multi-agent (public)
 ├── evaluation/
-│   ├── run_evaluation.py        # Scripts to run evaluations (using MLflow, Mosaic AI, etc.) (private)
+│   ├── run_evaluation.py        # Scripts to run evaluations (using MLflow, Mosaic AI) (private)
 ├── models/
-│   ├── 
+│   ├── (private)
 ├── utils/
 ├── config/
 └── __init__.py
-/docs - Documentation and architecture diagrams
-/data - Sample datasets and data preparation scripts
+
+data/
+│   ├── corpus-documents/
+│   ├── datasets/
+│   ├── evaluation-datasets/
+
 ```
 
 ## DEVELOPMENT WORKFLOW
