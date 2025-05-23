@@ -18,16 +18,17 @@ Access to a Databricks workspace. Databricks features: Mosaic AI,
 Python, Langchain, MLflow
 
 ## PROJECT STRUCTURE
+```
 src/
 ├── data/
 ├── vector_search/
-│   ├── unstructured-data-pipeline - documentació # Vector search creation for the documentation sources. 
-│   ├── unstructured-data-pipeline - tramits # Vector search creation for the tramit sources. 
+│   ├── vector-search-documentation.py # Vector search creation for the documentation sources. (private)
+│   ├── vector-search-tramits.py # Vector search creation for the tramit sources. (private)
 ├── architecture/
-│   ├── langgraph-multiagent-genie-pat # Creation of the architecture
-│   ├── agent. 
+│   ├── langgraph-multiagent-genie-pat # Development and deploy of the model (private)
+│   ├── agent.py # Architecture multi-agent (public)
 ├── evaluation/
-│   ├── run_evaluation.py        # Scripts to run evaluations (using MLflow, Mosaic AI, etc.)
+│   ├── run_evaluation.py        # Scripts to run evaluations (using MLflow, Mosaic AI, etc.) (private)
 ├── models/
 │   ├── 
 ├── utils/
@@ -35,7 +36,7 @@ src/
 └── __init__.py
 /docs - Documentation and architecture diagrams
 /data - Sample datasets and data preparation scripts
-
+```
 
 ## DEVELOPMENT WORKFLOW
 1. Gather Requirements: Define the problem, objectives, and value proposition for your GenAI solution.
