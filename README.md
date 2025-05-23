@@ -1,15 +1,11 @@
 # Generative AI Multi-Agent System on Databricks
 
-This project demonstrates how to build, deploy, and evaluate generative AI multi-agent systems using the Databricks Data Intelligence Platform. 
+This project demonstrates how to build, deploy, and evaluate a generative AI multi-agent system using the Databricks Data Intelligence Platform. It showcases the integration of modern tools like LangChain, Mosaic AI, MLflow, and external LLMs to deliver intelligent, autonomous agents.
 
- **Use Case:**  
-Guide new entrepreneurs through the process of starting a business using official documents and procedures from trusted sources (RAG + agents).
+ ## Use Case 
+Help new entrepreneurs navigate the complex process of starting a business by guiding them through official procedures and documents from trusted sources. This is achieved using Retrieval-Augmented Generation (RAG) combined with a multi-agent architecture.
 
 Built with Databricks Mosaic AI, LangChain, MLflow, and LLMs (Llama and Claude)
-## PREREQUISITES:
-
-Access to a Databricks workspace. Databricks features: Mosaic AI, 
-Python, Langchain, MLflow.
 
 ## PROJECT STRUCTURE
 ```
@@ -40,12 +36,12 @@ data/
 ```
 
 ## DEVELOPMENT WORKFLOW
-1. Load the data to Unity Catalog (volumes and tables) and preprocess.
-2. Develope vector search index and genie.
-3. Design and develope the model ( a multi-agent system architecture).
-4. Deploy & Test: Serve models with Mosaic AI Model Serving and test using AI Playground or API endpoints.
-5. Evaluate & Iterate: Log experiments with MLflow, collect feedback, and refine agent logic.
-7. Productionize: Monitor performance, set up guardrails, and ensure compliance and governance.
+1. Ingest & Preprocess: Load datasets into Unity Catalog and preprocess.
+2. Indexing: Build vector search indices.
+3. Model Design: Develop a LangGraph-based multi-agent architecture.
+4. Deploy & Test: Serve agents with Mosaic AI, test via AI Playground or APIs.
+5. Evaluate & Iterate:  Use MLflow for experiment tracking and agent evaluation.
+7. Productionize: Implement monitoring, safety guardrails, and governance policies.
 
 ## KEY TECHNOLOGIES
 - Databricks
