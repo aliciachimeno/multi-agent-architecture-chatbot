@@ -1,26 +1,20 @@
 # Generative AI Multi-Agent System on Databricks
 
 This project demonstrates how to build, deploy, and evaluate generative AI multi-agent systems using the Databricks Data Intelligence Platform. 
-The use case is to guide
-
-## FEATURES
-End-to-end workflow for GenAI app development: from proof-of-concept to production.
-Integration with Databricks Mosaic AI for model serving, vector search, and agent orchestration.
-Support for multiple GenAI architectural patterns: Prompt Engineering, Retrieval Augmented Generation (RAG), Fine-tuning, and Pretraining.
-Example notebooks and templates for rapid prototyping.
-MLflow integration for experiment tracking and agent evaluation.
-Guidance on best practices for governance, monitoring, and continuous improvement.
+The use case is to guide new entrepreneurs to create their startup through oficial documents and procedures. 
 
 ## PREREQUISITES:
 
 Access to a Databricks workspace. Databricks features: Mosaic AI, 
-
-Python, Langchain, MLflow
+Python, Langchain, MLflow.
 
 ## PROJECT STRUCTURE
 ```
 src/
 ├── data/
+│   ├── import-dades-obertes-api.py 
+│   ├── import-csv-into-volume.py 
+│   ├── web-scrapping.py
 ├── vector_search/
 │   ├── vector-search-documentation.py # Vector search creation for the documentation sources. (private)
 │   ├── vector-search-tramits.py # Vector search creation for the tramit sources. (private)
@@ -39,18 +33,11 @@ src/
 ```
 
 ## DEVELOPMENT WORKFLOW
-1. Gather Requirements: Define the problem, objectives, and value proposition for your GenAI solution.
-
-2. Design Architecture: Choose the appropriate agent pattern (Prompt, RAG, Fine-tuning, Pretraining).
-
-3. Prepare Data: Clean, structure, and catalog your data using Unity Catalog.
-
-4. Build Prototype: Use provided notebooks to create an initial agent or chain with minimal prompts and tools.
-
-5. Deploy & Test: Serve models with Mosaic AI Model Serving and test using AI Playground or API endpoints.
-
-6. Evaluate & Iterate: Log experiments with MLflow, collect feedback, and refine agent logic.
-
+1. Load the data to Unity Catalog (volumes and tables) and preprocess.
+2. Develope vector search index and genie.
+3. Design and develope the model ( a multi-agent system architecture).
+4. Deploy & Test: Serve models with Mosaic AI Model Serving and test using AI Playground or API endpoints.
+5. Evaluate & Iterate: Log experiments with MLflow, collect feedback, and refine agent logic.
 7. Productionize: Monitor performance, set up guardrails, and ensure compliance and governance.
 
 ## KEY TECHNOLOGIES
