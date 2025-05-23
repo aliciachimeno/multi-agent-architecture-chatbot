@@ -5,7 +5,7 @@ This project demonstrates how to build, deploy, and evaluate generative AI multi
  **Use Case:**  
 Guide new entrepreneurs through the process of starting a business using official documents and procedures from trusted sources (RAG + agents).
 
-Built with Databricks Mosaic AI, LangChain, MLflow, and open-source LLMs.
+Built with Databricks Mosaic AI, LangChain, MLflow, and LLMs (Llama and Claude)
 ## PREREQUISITES:
 
 Access to a Databricks workspace. Databricks features: Mosaic AI, 
@@ -48,11 +48,12 @@ data/
 7. Productionize: Monitor performance, set up guardrails, and ensure compliance and governance.
 
 ## KEY TECHNOLOGIES
-Databricks 
-Unity Catalog (Data and model governance)
-Mosaic AI (Model Serving, Vector Search)
-MLflow (Experiment tracking and evaluation)
-Open-source and external LLMs (e.g., Llama, Mistral, GPT-4, Claude)
+- Databricks
+    - Unity Catalog (Data and model governance)
+    - Mosaic AI (Model Serving, Vector Search, Agent Evaluation)
+    - Genie
+- MLflow (Experiment tracking and evaluation)
+- External LLMs ( Llama, Claude)
 
 ## LangGraph architecture
 ![Architecture Diagram](./media/langgraph.png)
