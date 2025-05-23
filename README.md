@@ -3,6 +3,9 @@
 This project demonstrates how to build, deploy, and evaluate generative AI multi-agent systems using the Databricks Data Intelligence Platform. 
 The use case is to guide new entrepreneurs to create their startup through oficial documents and procedures. 
 
+![Demo](./media/demo-1.gif)
+
+
 ## PREREQUISITES:
 
 Access to a Databricks workspace. Databricks features: Mosaic AI, 
