@@ -1,8 +1,11 @@
 # Generative AI Multi-Agent System on Databricks
 
 This project demonstrates how to build, deploy, and evaluate generative AI multi-agent systems using the Databricks Data Intelligence Platform. 
-The use case is to guide new entrepreneurs to create their startup through oficial documents and procedures. 
 
+ **Use Case:**  
+Guide new entrepreneurs through the process of starting a business using official documents and procedures from trusted sources (RAG + agents).
+
+Built with Databricks Mosaic AI, LangChain, MLflow, and open-source LLMs.
 ## PREREQUISITES:
 
 Access to a Databricks workspace. Databricks features: Mosaic AI, 
